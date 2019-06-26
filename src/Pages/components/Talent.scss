@@ -1,0 +1,21 @@
+.talent-name{
+  color: #1A0A03;
+  font-size: 15px;
+}
+.talent-section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.first-bar{
+  width: 80%;
+}
+
+.second-bar{
+  width: 60%;
+}
+
+.progress{
+  background: #FCD8C9;
+}

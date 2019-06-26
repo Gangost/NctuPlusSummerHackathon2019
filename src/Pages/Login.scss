@@ -1,0 +1,156 @@
+.cross{
+  float: right;
+  margin-right: 10%;
+  cursor: pointer;
+  color: white;
+  font-size: 50px;
+}
+.LoginContainer{
+    position :relative;
+    background: black;
+    width: 1280px;
+    height: 800px;
+    user-select: none;
+}
+.LoginBlock{
+    position: absolute;
+    top:162px;
+    left:412px;
+    background:  #FAF0F0;
+    width: 409px;
+    height: 464px;
+}
+h1{
+    position: absolute;
+    top:70px;
+    font-size: 30px;
+    left:533px;
+ color:#FFB699       
+}
+.LogButton{
+    position: absolute;
+    top: 675px;
+    left: 706px;
+    background: #FFB699;
+    color:#FFFFFF;
+    // padding-top:12px;
+    font-size:20px;
+    text-align: center;
+    width: 115px;
+    height: 35px;
+    cursor:pointer;
+    font-weight: bold;
+}
+.SignButton{
+    position: absolute;
+    top: 675px;
+    left: 411px;
+    border:3px #FFB699 solid;
+    background: #FFFFFF;
+    color:#FFB699;
+    text-align: center;
+    // padding-top:12px;
+    font-size:20px;
+    width: 112px;
+    height: 32px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.Fb{
+    position: relative;
+    // top:33px;
+    left: 56px;
+    height: 35px;
+    width: 290px;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    // padding-top: 12px;
+    background:#3B5998;
+    cursor:pointer;
+}
+.Google{
+    position: relative;
+    // top:52px;
+    left: 56px;
+    height: 35px;
+    width: 290px;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    // padding-top: 12px;
+    background:#EA4335;
+    cursor:pointer;
+}
+.User{
+    display:flex;
+    position: relative;
+    // top:71px;
+    left: 56px;
+    height: 47px;
+    width: 290px;
+    color:#FFFFFF;
+    background:#FFFFFF;
+    border: 1px #969696 solid;
+}
+.PassWord{
+    display:flex;
+    position: relative;
+    // top:90px;
+    left: 56px;
+    height: 47px;
+    width: 290px;
+    color:#FFFFFF;
+    border: 1px #969696 solid;
+    background:#FFFFFF;
+}
+.Icon1{
+    display:block;
+    position: relative;
+    width: 49px;
+    height: 47px;
+    background:#FFB699;
+    top: -30px;
+}
+.Icon2{
+    position:relative;
+    left:157px;
+    // top:14px;
+    width: 110px;
+    height: 110px;
+    background-image:url('../Components/圖層 2.png');
+}
+.Icon11{
+    position:relative;
+    width: 30px;
+    height: 30px;
+    top: -20px;
+    left: 6.5px;
+    background-image:url('../Components/Group 43.png');   
+}
+.Icon12{
+    position:relative;
+    width: 27.3px;
+    height: 27.8px;
+    top: -20px;
+    left: 6.5px;
+    background-image:url('../Components/Path 36.png');   
+}
+.UserInput{
+    position: relative;
+    display: block;
+    width: 83%;
+    font-size: 150%;
+    border:0;
+    left:0%;
+}
+.PassInput{
+    position: relative;
+    display: block;
+    width: 83%;
+    font-size: 150%;
+    border:none;
+    left:0%;
+}

@@ -1,0 +1,105 @@
+.ProfileContainer{
+    display: flex;
+    height: 704px;
+    width: 752px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .ProfileInfo{
+        display: flex;
+        flex-direction: row;
+        position:relative;
+        background: #F2BEAA;
+        width: 752px;
+        height: 209px;
+        border-radius: 20px;
+        .ProfileUserIcon{
+            width: 142.53px;
+            height: 142.53px;
+            position:relative;
+            // top: 37px;
+            left: 66px;
+            background-image: url('./Mark-2.png')
+    }
+        .ProfileUserName{
+            position:relative;
+            height: 50px;
+            width: 200px;
+            left: 128.5px;
+            top: 83px;
+            background: #F2BEAA;
+            border:0;
+            font-size: 30px;
+        }
+        .ProfileUserMotto{
+            position: relative;
+            top: 151px;
+            left: 165px;
+            width: 200px;
+            height: 30px;
+            background: #F2BEAA;
+            border:0;
+            font-size: 22px;
+        }
+        .ProfileUserEditIcon{
+            width: 47.5px;
+            height: 41.7px;
+            position:relative;
+            top: 12.3px;
+            left: 140px;
+            background-image: url('./Group 9.png');
+            cursor:pointer;
+        }
+}
+    .ProfileCV{
+        display: flex;
+        background: #F5DCD3;
+        width: 752px;
+        height: 452px;
+        //flex-direction: column;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        .ProfileCVIcon{
+            width: 234px;
+            height: 219px;
+            background-image: url('./Group 11.png');
+            cursor: pointer;
+        }
+        .UploadCV{
+            position:relative;
+            top: 27px;
+            //background:black;
+            font-size: 30px;
+            width: 227px;
+            height: 30px;
+        }
+        .ProfileCVContent{
+            position:relative;
+            left:230px;
+            font-size: 20px;
+            height: 307px;
+            width: 200px;
+            background: #F5DCD3;
+            border:0;
+        }
+        .ProfileCVEdiIcon{
+            right:260px;
+            position:relative;
+            width: 142.5px;
+            height: 142.5px;
+        
+            background-image: url('./Mark-2.png');
+        }
+        .ProfileCVUserName{
+            position: relative;
+            width: 167px;
+            height: 70px;
+            top:140px;
+            right:420px;
+            font-size: 32px;
+            text-align: center;
+        }
+    }
+    
+}

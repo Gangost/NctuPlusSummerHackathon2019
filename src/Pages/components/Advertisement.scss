@@ -1,0 +1,22 @@
+.ad-container{
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  right: 10px;
+  height: 700px;
+}
+
+.close-ad{
+  cursor: pointer;
+  font-size: 28px;
+  color:black;
+  position: relative;
+  top: 73px;
+  right: -110px;
+}
+.closed{
+  opacity: 0.5;
+}
+.notClosed{
+  opacity: 1;
+}

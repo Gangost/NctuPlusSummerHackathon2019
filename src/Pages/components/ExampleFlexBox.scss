@@ -1,0 +1,15 @@
+.outer-container {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .cv-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    .cv-div{
+      width: 200px;
+    }
+  }
+}

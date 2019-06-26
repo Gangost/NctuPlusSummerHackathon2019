@@ -1,0 +1,22 @@
+.searchbar{
+  background: linear-gradient(to right,#FCA988,#805B4D);
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 30px;
+  width: 100%;
+  border: none;
+  &::placeholder{
+    font-size: 30px;
+    color: white;
+  }
+}
+.container{
+  background: linear-gradient(to right,#FCA988,#805B4D);
+  width: 70%;
+  opacity: 0.37;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+

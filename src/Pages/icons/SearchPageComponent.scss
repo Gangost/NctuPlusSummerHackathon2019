@@ -1,0 +1,105 @@
+.SearchePageComponentContainer{
+    display:flex;
+    width: 900px;
+    height: 451px;
+   //background: yellow;
+    //background:#ffffff;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .SearchePageComponentCard{
+        position: relative;
+        display:flex;
+        flex-direction:row;
+        
+        height: 100px;
+        width: 70%;
+        background:white;
+        .SearchPageComponentCardIcon{
+            position: relative;
+            top:20px;
+            left: 0%;
+            width: 60px;
+            height: 60px;
+
+            background-image: url('./Page-1.png');
+          
+        }
+        .SearchPageComponentCardTitle{
+            position:relative;
+            //background:red;
+            color:#FFA886;
+            height: 100px;
+            width: 60%;
+            font-size: 40px;
+            left:5%;
+        }
+        .SearchPageComponentCardFavoriteIcon{
+            position: relative;
+         cursor: pointer;
+            top:35px;
+            left:10%;
+            //background:#FFA886;
+            width: 25.4px;
+            height: 30px;
+            background-image: url('./bookmark-white.png');
+        }
+    }
+    .SearchPageComponentCardContent{
+        position:relative;
+        border:0;
+        height: 340px;
+        left: 1%;
+        top: 1%;
+        width: 50%;
+        font-size: 20px;
+        color: #803E24;
+        line-height: 250%;
+    }
+    .SearchPageComponentNote{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        //background:green;
+        height: 100%;
+        width: 30%;
+        right:0%;
+        .SearchPageComponentNoteTitle{
+            cursor: pointer;
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            background: white;
+            width: 181px;
+            height: 39px;
+            top: 47px;
+            .SearchPageComponentNoteTitleIcon{
+                width: 28.4px;
+            height: 28.4px;
+            position: relative;
+            background:#ffffff;
+            cursor: pointer;
+                background-image: url('./Path 20.png');
+            }
+        }
+        .SearchPageComponentNoteTitleText{
+            position: relative;
+            top:20%;
+            right:15%;
+            color: #803E24;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .SearchPageComponentNoteContent{
+            //text-align: cent;
+            font-size: 20px;
+            color:#803E24;
+            padding:9%;
+            width: 80%;
+            border: 2px #803E24 solid;
+            height: 290px;
+        }
+    }
+}
